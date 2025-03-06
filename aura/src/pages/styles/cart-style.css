@@ -1,0 +1,167 @@
+  .cart-container { 
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5rem 2rem; 
+    gap: 2rem;
+    
+  }
+  
+   .cart-class  .cart-items {
+    flex: 3;
+    background: var(--variant);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    margin: 0;
+    
+  }
+  .cart-class  .cart-items p{
+    color: var(--primary-color);
+  }
+  
+  .cart-class  .cart-items h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .cart-class  .cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-class  .cart-items th, .cart-items td {
+    color:var(--primary-color);
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 0.063rem solid var( --secondary-color);
+    vertical-align: middle;
+    position: relative;
+  }
+ 
+  .cart-class  .cart-items td img {
+    width:6.5rem;
+    display: block;
+    height: auto;
+    margin-right: 1rem;
+    position: absolute;
+    bottom: 20%;
+  }
+  
+  .cart-class  .cart-items .remove {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid var(--dark-variant);
+    background: var(--dark-variant);
+    color:var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .cart-class  .cart-items .remove:hover {
+    background: #4a4c50;
+  }
+  
+  
+  .cart-class  .remove {
+    color: black;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+  }
+  
+  
+  .cart-class  .summary {
+    flex: 1;
+    background: var(--variant) ;
+    padding: 1rem;
+    border-radius:0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .cart-class  .summary h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .cart-class  .summary p {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+  }
+  
+  .cart-class  .summary input {
+    width: 90%;
+    background-color: var(--primary-color);
+    color: var(--dark-variant);
+    padding: 0.5rem; 
+    margin: 1rem 0;
+    border: 0.063rem solid var(--primary-color);
+    border-radius: 0.25rem;
+  }
+  .cart-class  .summary label{
+    color: var(--primary-color);
+  }
+
+  .cart-class  .summary a{
+    all: unset;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cart-class  .summary button{
+    white-space: nowrap;
+    padding: 1.3em 3em;
+  }
+  
+
+  @media only screen and (max-width: 767px) {
+    .cart-class .cart-container {
+      flex-direction: column;
+      gap: 1rem;
+  
+    }
+  
+    .cart-class .cart-items {
+      flex: unset;
+      width: 92%;
+    }
+  
+    .cart-class .summary {
+      width: 93%;
+      order: 2; 
+
+    }
+
+
+
+    .cart-class .cart-items td.item-cell {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .cart-class .cart-items td.item-cell img {
+      margin-right: 0;
+      margin-bottom: 0.5rem; 
+    }
+  
+    .cart-class .cart-items th,
+    .cart-class .cart-items td {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    } 
+
+    
+  
+    .cart-class .cart-items .remove {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.8rem;
+      width: 10%;
+    }
+  }
+
+
+

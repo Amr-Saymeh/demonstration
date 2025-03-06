@@ -1,0 +1,277 @@
+.shop-styling .sidebar {
+  top: 100px;
+  align-self: start;
+  margin-left: 10em;
+  width: 18em;
+  height:auto;
+  position: fixed;
+  z-index: 10;
+  padding-left: 1em;
+  margin-left: 1em;
+  background-color: #1e1e2e;
+}
+.shop-styling .sidebar *{
+overflow-x: visible;
+}
+.shop-styling .filters::-webkit-scrollbar {
+    width: 5px;
+}
+
+.shop-styling .filters::-webkit-scrollbar-thumb {
+    background-color: #996dc6; 
+    border-radius: 10px;
+}
+
+.shop-styling .filters::-webkit-scrollbar-track {
+    background-color: var(--variant);
+    border-radius: 10px;
+}
+
+.radio-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .radio-input * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+   .radio-input label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 20px;
+    width: 220px;
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+  }
+  
+
+  .radio-input label::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 45px;
+    z-index: -1;
+    border-radius: 10px;
+    border: 2px solid var(--variant);
+  }
+   .radio-input label:hover::before {
+    transition: 100ms;
+    background-color: var(--variant);
+  }
+  
+   .radio-input .label:has(input:checked)::before {
+    background-color: var(--variant);
+    border-color: #996dc6;
+    height: 50px;
+  }
+
+  
+   .radio-input .label input[type="radio"] {
+    background-color: #202030;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .radio-input .label input[type="radio"]:checked {
+    background-color: #996dc6;
+  }
+  
+   .radio-input .label input[type="radio"]:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    transition: 100ms;
+    background-color: #fff;
+    transform: scale(0);
+  }
+  
+   .radio-input .label input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+  .shop-styling .tabs {
+    display: flex;
+    position: relative;
+    background-color: #996dc6;
+    box-shadow: 0 0 5px #996dc6, 0 0 0 1px #996dc6;
+    filter:drop-shadow(0 0 0.5px #996dc6);
+    padding: 0.75rem;
+    border-radius: 99px;
+    width:fit-content;
+    z-index: 5;
+    margin-bottom: 1em;
+  }
+  
+  
+  .shop-styling .tabs * {
+    z-index: 2;
+  }
+  
+  .shop-styling .tabs input[type="radio"] {
+    display: none;
+  }
+  
+  .shop-styling .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 50px;
+    color: #fff;
+    border-radius: 99px;
+    cursor: pointer;
+    transition:100ms;
+  }
+  
+  .shop-styling .tabs input[type="radio"]:checked + label {
+    color: #996dc6;
+  }
+  .shop-styling .container #radio-1:checked ~ .glider {
+    transform: translateX(0);
+    }
+    .shop-styling   .container #radio-2:checked ~ .glider {
+    transform: translateX(100%);
+    }
+  
+    .shop-styling .glider {
+    position: absolute;
+    display: flex;
+    height: 30px;
+    width: 50px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 99px;
+    transition: all 0.25s ease-out;
+  }
+  .shop-styling .container {
+    left: -1em;
+    position: absolute;
+    width: 100%;
+    height: 300%;
+    overflow-x: visible;
+    transition: left 0.3s ease-in-out; 
+  }
+  
+  .shop-styling .filters {
+    position: absolute;
+    top:5em;
+    transition: all 0.3s ease-in-out; 
+    overflow-y: auto;
+    max-height: 70vh;
+    width: 14em;
+    padding-left:1em ;
+    padding-right: 1em;
+    padding-bottom: 2em;
+  }
+  .shop-styling .container *{
+    overflow-x: visible;
+  }
+  .shop-styling .container, .shop-styling .filters, .shop-styling .glider {
+    will-change: left;
+}
+
+.shop-styling .clr{
+  margin-top: 2em;
+  margin-bottom: 7em;
+  margin-left: 10%;
+}
+.shop-styling .side-overlay {
+  position: fixed;
+  top: 0em;
+  left: 500em;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  transition:all 0.3s ease-in-out;
+  border-radius: 0.5em;
+  background-color: rgba(0, 0, 0, 0.0);
+  backdrop-filter: blur(0px);
+}
+
+.burger label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+}
+.no-s{
+  position: absolute;
+  visibility: hidden;
+}
+@media (max-width: 768px) {
+.shop-styling .container{
+  left: -5em;
+  .filters{
+  left: -15em;
+  }
+  .glider{
+   left:-1em;
+  }
+  .glider.f-active{
+    left:3.85em;
+  }
+  .tab.f-active{
+    color:#996dc6;
+  }
+ 
+}
+
+.shop-styling .container.active {
+  left: 0em;
+  .glider{
+    left:0.7em;
+  }
+  
+}
+
+.shop-styling .filters.active {
+  left: 0.5em;
+}
+.shop-styling .sidebar.active{
+  padding-left: 1em;
+  margin-left: 0em;
+}
+.shop-styling .sidebar{
+  padding-left: 0em;
+  margin-left: 0em;
+}
+.shop-styling .filters.active {
+  overflow-y: auto;
+}
+.shop-styling .filters {
+  overflow-y: hidden;
+}
+.side-overlay.active {
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+  left:17.7em;
+}
+.no-s{
+  position: unset;
+  visibility: unset;
+}
+
+}

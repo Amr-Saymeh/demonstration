@@ -1,0 +1,138 @@
+.upload-container {
+  margin: 0; /* Remove default margin for consistent layout */
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--variant);
+  padding: 20px; /* Add spacing around the container */
+}
+.upload-container .container-upload {
+  max-width: 800px; /* Limit the width of the upload form */
+  margin: 0 auto; /* Center the form horizontally */
+  margin-top: 100px; /* Add space from the top */
+}
+
+.upload-container h1 {
+  font-size: 2rem; /* Large font size */
+  font-weight: 600; /* Make the heading bold */
+  margin-bottom: 20px;  /* Space below the heading */
+  color: #996dc6;
+}
+
+.upload-container .imageUpload{
+  width: 100%;
+  display: flex; /* Align items horizontally */
+  justify-content: space-between;
+  align-items: center;
+}
+#drop-area-upload{
+  width: 500px; /* Width of the drop area */
+  height: 300px; /* Height of the drop area */
+  padding: 30px; /* Inner spacing */
+  background: var(--variant);
+  text-align: center;
+  border-radius: 20px;
+  color: #996dc6;
+}
+#img-view-upload{
+  width: 100%; /* Take full width */
+  height: 100%; /* Take full height */
+  border-radius: 20px;
+  border: 2px dashed  ;
+  background-position: center;
+  background-size: cover; /* Cover the entire area with the image */
+}
+#img-view-upload img{
+  width: 100px; /* Fixed size for the upload icon */
+  margin-top: 25px; /* Space above the icon */
+}
+#img-view-upload span{
+  display: block; /* Make the span a block element */
+  font-size: 12px;
+  color: #996dc6;
+  margin-top: 15px; /* Space above the text */
+}
+.upload-container .toggle-buttons-price {
+  display: flex; /* Arrange buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  margin-bottom: 20px;
+}
+
+.upload-container .toggle-buttons-price button {
+  padding: 10px; /* Inner padding for buttons */
+  font-size: 1rem;
+  font-weight: 600;  /* Bold text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.upload-container .toggle-buttons-price .sale {
+  background-color: #996dc6;
+  color: var(--primary-color);
+}
+
+.upload-container .toggle-buttons-price .show {
+  background-color:  #996dc6;
+  color: var(--primary-color);
+
+}
+
+.upload-container .form-group1 {
+  margin-bottom: 15px;  /* Space below each form group */
+}
+
+.upload-container .form-group1 label {
+  display: block; /* Make the label take full width */
+  margin-bottom: 5px; /* Space below the label */
+  font-size: 0.9rem; 
+  color: var(--primary-color);
+}
+
+
+.upload-container .form-group1 input,.form-group1 textarea{
+  width: 96%; /* Adjust width to fit inside the container */
+  padding: 5px; /* Inner padding */
+
+  font-size: 1rem;
+  border: 1px solid #996dc6;
+  border-radius: 5px;
+  background-color: var(--variant);
+  color: var(--primary-color);
+}
+
+.upload-container .form-group1 textarea {
+  resize: none; /* Prevent resizing */
+  height: 100px;
+}
+.upload-container .post-buttons {
+  display: flex; /* Arrange buttons horizontally */
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 10px;
+}
+.upload-container .post-buttons button {
+  padding: 10px 22px; /* Padding around the button text */
+  font-size: 15px;
+  font-weight: 600; /* Bold text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Pointer cursor on hover */
+}
+.upload-container .preview {
+  background-color:  #996dc6;
+  color: var(--primary-color);
+}
+.upload-container .post {
+  background-color: #996dc6;
+  color: var(--primary-color);
+}
+.upload-container .form-group1 select {
+  width: 98%; /* Adjust width to fit inside the container */
+  padding: 10px; /* Inner padding */
+  font-size: 1rem;
+  border: 1px solid #996dc6;
+  border-radius: 5px;
+  background-color: var(--variant);
+  color: var(--primary-color);
+  cursor: pointer; /* Pointer cursor on hover */
+}

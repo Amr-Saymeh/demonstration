@@ -1,0 +1,110 @@
+/* Profile container styles */
+.profile-container {
+    position: relative; /* Positioning for inner elements */
+    margin: 1.25rem auto; /* Center container with vertical margin */
+    text-align: center; /* Center text alignment */
+    width: 70rem; /* Fixed width for the profile container */
+    height: 20rem; /* Fixed height for the profile container */
+    overflow: visible; /* Allow overflow content */
+}
+
+/* Background image for the profile container */
+.back {
+    position: absolute; /* Absolute position to fill the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the entire area */
+    z-index: 0; /* Set behind the profile picture */
+    box-shadow: 0 4px 8px rgba(153, 14, 165, 0.3); /* Soft shadow around the background */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+/* Profile image container */
+.profiles {
+    position: absolute; /* Position relative to parent */
+    top: 75%; /* Move profile image container towards bottom */
+    left: 50%; /* Align horizontally at the center */
+    transform: translate(-50%, -50%); /* Correct alignment to center */
+    width: 15vw; /* Responsive width based on viewport width */
+    height: 15vw; /* Same as width for a square shape */
+    max-width: 11rem; /* Max width limit */
+    max-height: 11rem; /* Max height limit */
+    border-radius: 50%; /* Circle shape */
+    border: 0.25rem solid var( --primary-color); /* White border around the profile image */
+    z-index: 1; /* Place above the background image */
+    background-color: var( --bg-color); /* Background color for the profile image */
+}
+
+/* Media query for smaller screens (max-width 768px) */
+@media (max-width: 768px) {
+    .profiles {
+        width: 25vw; /* Larger profile size on smaller screens */
+        height: 25vw;
+        max-width: 8rem; /* Max size reduced */
+        max-height: 8rem; /* Max height reduced */
+        left: 29%; /* Adjust horizontal positioning */
+        top: 80%; /* Adjust vertical positioning */
+    }
+}
+
+/* Profile details container */
+.profile-details {
+    display: flex;
+    flex-direction: column; /* Arrange details vertically */
+    color: var( --primary-color); /* White text color */
+    margin: 1.25rem auto; /* Center the details with margin */
+    text-align: center; /* Center align text */
+}
+
+/* Status styling */
+.status {
+    margin: 0.625rem 0; /* Margin around status */
+    font-size: 1.25rem; /* Font size for status */
+    color: var(--primary-color); /* Light gray color */
+}
+
+/* Styling for individual status span elements */
+.status span {
+    margin-right: 0.625rem; /* Space between status text and span */
+    color: var(--primary-color);
+}
+
+/* Bio text area styling */
+.bio {
+    text-align: center; /* Center align bio text */
+    resize: none; /* Disable resizing */
+    font-size: 1.125rem; /* Font size for the bio */
+    background-color: var(--bg-color); /* Dark background for the bio */
+    color: var( --primary-color); /* White text color */
+    border: none; /* Remove border */
+    font-family: 'Times New Roman', Times, serif; /* Elegant font style */
+    margin: 0.625rem auto; /* Center bio with margin */
+    padding: 0.625rem; /* Padding around bio text */
+    width: 90%; /* 90% of the container width */
+    max-width: 37.5rem; /* Max width limit for bio */
+}
+
+/* Edit profile button styling */
+.edit-profile-btn {
+    padding: 0.3125rem 0.9375rem; /* Padding inside the button */
+    background-color: var(--secondary-color); /* Purple background color */
+    color: var( --primary-color); /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 0.3125rem; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 0.625rem; /* Space to the right of the button */
+}
+
+/* Gear icon (settings) styling */
+.fa-gear {
+    font-size: 1.3rem; /* Slightly larger icon */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: var(--primary-color);
+}
+
+/* Padding for middle section (top) */
+.middle-top {
+    padding: 0.1rem; /* Small padding for top section */
+}

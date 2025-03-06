@@ -1,0 +1,171 @@
+/* Modal container styles */
+.modals {
+    display: none; /* Hide modal by default */
+    position: fixed;
+    z-index: 1000; /* Ensure modal is on top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    overflow: auto; /* Enable scrolling if content overflows */
+    justify-content: center; /* Center modal content vertically */
+    align-items: center; /* Center modal content horizontally */
+}
+
+/* Modal when it's open */
+.modals.open {
+    display: flex; /* Show modal as flex container */
+}
+
+/* Wrapper for modal content (image + comments) */
+.modal-content-wrappers {
+    display: flex;
+    justify-content: space-between; /* Space between image and comments */
+    align-items: flex-start;
+    background-color: #262525; /* Dark background */
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    max-width: 90%; /* Max width to fit the screen */
+    max-height: 80vh; /* Max height with viewport limitation */
+    margin: auto;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+/* Image styles in the modal */
+.modal-image1 {
+    width: 100%;
+    height: 25rem;
+    object-fit: contain; /* Ensure the image fits within its container */
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+/* Style for the image inside the modal */
+.modal-image1 img {
+    width: 100%;
+    height: 25rem; /* Set image height */
+}
+
+/* Container for comments section */
+.modal-comments {
+    width: 25rem;
+    height: 22.625rem;
+    background-color: var(--variant); /* Dark background */
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    color: var(--primary-color); /* White text */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Title style for the modal */
+#modalTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem; /* Space below the title */
+}
+
+/* Caption style inside the modal */
+#modalCaption {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    color: #555; /* Lighter color for caption */
+}
+
+/* Comments container inside the modal */
+#commentsContainer {
+    flex-grow: 1; /* Allow comments container to grow */
+    overflow-y: auto; /* Scrollable content */
+    margin-bottom: 1.25rem; /* Space at the bottom */
+}
+
+/* Style for individual comment text */
+#commentsContainer p {
+    margin: 0.625rem 0; /* Spacing between paragraphs */
+    font-size: 0.875rem;
+}
+
+/* Comment input field */
+#commentInput {
+    width: 90%; /* Input takes most of the width */
+    height: 3.125rem;
+    resize: none; /* Prevent resizing */
+    border: 0.0625rem solid #555; /* Border with darker shade */
+    border-radius: 0.5rem;
+    padding: 0.625rem;
+    font-size: 0.875rem;
+    background-color: var(--variant); /* Dark background */
+    color: var( --primary-color); /* White text */
+    margin-top: 0.625rem; /* Space above input */
+    font-family: 'Arial', sans-serif; /* Use Arial font */
+}
+
+/* Post comment button */
+#postComment {
+    padding: 0.625rem;
+    background-color: var(--secondary-color); /* Purple background */
+    color: var( --primary-color); /* White text */
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    display: flex;
+    justify-self: end;
+    margin: 15px; /* Margin around the button */
+}
+
+/* Close button for modal */
+.close {
+    position: absolute;
+    top: 0.625rem;
+    right: 0.9375rem; /* Position the close button at top-right */
+    font-size: 1.875rem;
+    color: var( --primary-color); /* White color for the close icon */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Like section (icon and count) */
+.like-section {
+    display: flex;
+    align-items: center; /* Center align the like button and count */
+    margin-bottom: 1.25rem; /* Space below the like section */
+}
+
+/* Like button styles */
+.like-button {
+    background: none; /* No background */
+    border: none;
+    font-size: 1.5rem;
+    color: gray; /* Default gray color */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 0.625rem; /* Space between button and like count */
+    outline: none; /* Remove focus outline */
+    transition: color 0.3s ease; /* Smooth transition on color change */
+    transition: background-color 0.3s ease; /* Smooth transition on background color change */
+}
+
+/* Active (liked) state for like button */
+.like-button.active {
+    color: var(--secondary-color); /* Purple color when active (liked) */
+}
+
+/* Heart icon styles */
+.like-button .fa-heart {
+    transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+
+/* Liked heart icon color */
+.like-button .fa-heart.liked {
+    color: var(--secondary-color); /* Purple color when liked */
+}
+
+/* Like count label */
+#likeCount {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 0.5rem; /* Space between count and label */
+}
+
+/* Like label text */
+#likeLabel {
+    font-size: 1rem;
+    font-weight: normal; /* Normal weight for the label */
+}

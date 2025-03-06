@@ -1,0 +1,308 @@
+/* Reset all elements to have no margin or padding and apply box-sizing to include padding and border in element's dimensions */
+.signin-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body styling for the sign-in container */
+body.signin-container-body {
+    display: flex; /* Centers the container horizontally and vertically */
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */
+    min-height: 100vh; /* Ensures the container takes up full height of the viewport */
+    margin: 0; /* Removes default body margin */
+    background-color: var( --bg-color); /* Dark background color */
+    font-family: 'Arial', sans-serif; /* Sets default font for the page */
+}
+/* Main sign-in container styling */
+.signin-container {
+    width: 24rem; /* Fixed width for the container */
+    background-color: var( --variant); /* Slightly lighter dark background for contrast */
+    border-radius: 1rem; /* Rounded corners for a modern look */
+    padding: 1.5rem 1rem; /* Padding inside the container */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center content horizontally */
+}
+
+.signin-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* Styling for the error message displayed in the sign-in container */
+.signin-container .error-msg {
+    color: red; /* Set the text color to red for emphasis */
+    font-size: 0.875rem; /* Set the font size to a slightly smaller scale */
+    margin-bottom: 1rem; /* Add space below the error message */
+    text-align: center; /* Center-align the error message within the container */
+}
+
+/* Styling for the input box container */
+.signin-container .input-box {
+    position: relative; /* Set the container's position to relative to position child elements */
+    margin-bottom: 1rem; /* Add spacing below the input box */
+}
+
+/* Styling for the input field inside the input box */
+.signin-container .input-box input {
+    width: 100%; /* Make the input field span the full width of the container */
+    height: 2.5rem; /* Set a fixed height for the input field */
+    background: transparent; /* Make the background transparent */
+    border: 2px solid var(--primary-color); /* Add a semi-transparent white border */
+    border-radius: 2rem; /* Round the corners of the input field */
+    font-size: 1rem; /* Set the font size for the input text */
+    color: var(--primary-color); /* Set the text color to a light gray */
+    padding-left: 3rem; /* Add padding on the left for the icon space */
+    padding-right: 4rem; /* Add padding on the right for additional spacing or icons */
+    outline: none; /* Remove the default outline on focus */
+    transition: all 0.3s ease-in-out; /* Smooth transition for focus effect */
+}
+
+/* Styling for the input field when focused */
+.signin-container .input-box input:focus {
+    border-color: #996DC6; /* Change border color to purple when focused */
+    background-color: rgba(255, 255, 255, 0.1); /* Add a semi-transparent background */
+}
+
+/* Styling for the placeholder text in the input field */
+.signin-container .input-box input::placeholder {
+    color: var(--primary-color); /* Set the placeholder text color to semi-transparent white */
+    text-align: left; /* Align placeholder text to the left */
+}
+
+/* Styling for the icon inside the input box */
+.signin-container .input-box i {
+    position: absolute; /* Position the icon relative to the input box container */
+    left: 1.5rem; /* Position the icon 1.5rem from the left edge */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Adjust centering using transform */
+    font-size: 1.25rem; /* Set the icon size */
+    color: var(--primary-color); /* Set the icon color to semi-transparent white */
+}
+
+/* Styling for the "Remember me" and "Forgot password" section */
+.signin-container .remember-forget {
+    display: flex; /* Use flexbox layout for alignment */
+    justify-content: space-between; /* Distribute space between the items */
+    align-items: center; /* Vertically align items in the center */
+    font-size: 0.875rem; /* Set the font size to slightly smaller text */
+    margin-bottom: 1rem; /* Add spacing below the section */
+    color: var(--primary-color); /* Set the text color to light gray */
+}
+
+
+/* Styling for links in the "Remember me" and "Forgot password" section */
+.signin-container .remember-forget a {
+    color: #996DC6; /* Set the link color to purple */
+    text-decoration: none; /* Remove underline from the link */
+    transition: color 0.2s ease; /* Add a smooth color transition effect */
+}
+
+/* Hover effect for the links */
+.signin-container .remember-forget a:hover {
+    color: #B38AD9; /* Change link color on hover */
+}
+
+/* Styling for the label in the "Remember me" and "Forgot password" section */
+.signin-container .remember-forget label {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center the label content */
+}
+
+/* Styling for checkboxes */
+.signin-container .checkboxes {
+    width: 1.25rem; /* Set the width of the checkbox */
+    height: 1.25rem; /* Set the height of the checkbox */
+    margin-right: 0.5rem; /* Add spacing to the right of the checkbox */
+}
+
+/* Styling for buttons in the sign-in form */
+.signin-container button, .signin-container .btn {
+    width: 100%; /* Make the button span the full width of the container */
+    height: 2.5rem; /* Set a fixed height for the button */
+    background-color: #996DC6; /* Set the button background to purple */
+    border: none; /* Remove border */
+    border-radius: 2rem; /* Round the corners of the button */
+    color: var(--primary-color); /* Set the text color to white */
+    font-size: 1rem; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: all 0.3s ease-in-out; /* Add smooth transition effects */
+}
+
+/* Hover effect for buttons */
+.signin-container button:hover, .signin-container .btn:hover {
+    background-color: #B38AD9; /* Change background color on hover */
+}
+
+/* Styling for the h2 title in the sign-in form */
+.signin-container h2 {
+    text-align: center; /* Center-align the text */
+    margin: 1rem 0; /* Add spacing above and below the title */
+    color: var(--primary-color); /* Set the text color to white */
+    font-size: 1rem; /* Set the font size */
+}
+
+/* Styling for the social buttons container */
+.signin-container .social-buttons {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center-align the social buttons */
+    gap: 0.75rem; /* Add spacing between the buttons */
+    margin-bottom: 1rem; /* Add spacing below the buttons */
+}
+
+/* Styling for social media buttons */
+.signin-container .social-buttons a {
+    display: inline-flex; /* Align items inline using flexbox */
+    align-items: center; /* Vertically center the button content */
+    justify-content: center; /* Center-align the icon inside the button */
+    width: 2.75rem; /* Set the width of the button */
+    height: 2.75rem; /* Set the height of the button */
+    border-radius: 50%; /* Make the button circular */
+    background-color: var(--bg-color); /* Set the background color to light gray */
+    color: var(--primary-color); /* Set the text color to dark gray */
+    font-size: 1.25rem; /* Set the icon size */
+    text-decoration: none; /* Remove underline from the link */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add smooth transition effects */
+}
+
+/* Hover effect for social buttons */
+.signin-container .social-buttons a:hover {
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Styling for the Facebook button */
+.signin-container .fb {
+    background-color: #3b5998; /* Set Facebook's background color */
+    color: var(--primary-color);
+}
+
+/* Hover effect for Facebook button */
+.signin-container .fb:hover {
+    background-color: #4e6ab3; /* Change background color on hover */
+    
+}
+
+/* Styling for the Twitter button */
+.signin-container .bi-twitter-x {
+    display: inline-flex; /* Align items inline using flexbox */
+    align-items: center; /* Vertically center the button content */
+    justify-content: center; /* Center-align the icon inside the button */
+    width: 2.75rem; /* Set the width of the button */
+    height: 2.75rem; /* Set the height of the button */
+    border-radius: 50%; /* Make the button circular */
+    background-color: var(--bg-color); /* Set the background color to light gray */
+    color: var(--primary-color); /* Set the text color to dark gray */
+    font-size: 1.25rem; /* Set the icon size */
+    text-decoration: none; /* Remove underline from the link */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add smooth transition effects */
+}
+
+/* Hover effect for Twitter button */
+.signin-container .bi-twitter-x:hover {
+    background-color: black; /* Change background color to black on hover */
+    color: var(--primary-color); /* Set text color to white on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Styling for the Google button */
+.signin-container .google {
+    background-color: #db4437; /* Set Google's background color */
+    color: var(--primary-color);
+}
+
+/* Hover effect for Google button */
+.signin-container .google:hover {
+    background-color: #f05447; /* Change background color on hover */
+    color: var(--primary-color);
+}
+
+/* Styling for the "Create Account" text */
+.signin-container .createAccount {
+    margin-top: 1rem; /* Add spacing above the "Create Account" text */
+    text-align: center; /* Center-align the text */
+    color: var(--primary-color); /* Set the text color to light gray */
+}
+
+/* Styling for the link inside the "Create Account" section */
+.signin-container .createAccount a {
+    color: #996DC6; /* Set the link color to purple */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+/* Hover effect for the "Create Account" link */
+.signin-container .createAccount a:hover {
+    color: #B38AD9; /* Change link color on hover */
+}
+
+/* Prevent Link inside button from being blue and underlined */
+.signin-container button a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Ensure the color matches the button's */
+}
+
+/* Responsive Styles for screen width <= 768px */
+@media (max-width: 768px) {
+    .signin-container {
+        width: 90%; /* Set the container width to 90% */
+        padding: 1.5rem 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .signin-container .container h1 {
+        font-size: 1.75rem; /* Reduce font size for heading */
+    }
+
+    .signin-container .input-box input {
+        font-size: 0.9rem; /* Reduce input field font size */
+    }
+
+    .signin-container button, .signin-container .btn {
+        height: 2.25rem; /* Adjust button height */
+    }
+
+    .signin-container h2 {
+        font-size: 0.9rem; /* Reduce font size for the h2 element */
+    }
+
+    .signin-container .social-buttons a {
+        width: 2.5rem; /* Adjust button size */
+        height: 2.5rem; /* Adjust button size */
+        font-size: 1.125rem; /* Adjust icon size */
+    }
+}
+
+/* Responsive Styles for screen width <= 480px */
+@media (max-width: 480px) {
+    .signin-container {
+        width: 100%; /* Set the container width to 100% */
+        padding: 1rem; /* Adjust padding */
+    }
+
+    .signin-container .container h1 {
+        font-size: 1.5rem; /* Reduce font size for heading */
+    }
+
+    .signin-container .input-box input {
+        font-size: 0.875rem; /* Reduce input field font size */
+    }
+
+    .signin-container button, .signin-container .btn {
+        height: 2rem; /* Adjust button height */
+        font-size: 0.875rem; /* Adjust button text size */
+    }
+
+    .signin-container h2 {
+        font-size: 0.8rem; /* Reduce font size for the h2 element */
+    }
+
+    .signin-container .social-buttons a {
+        width: 2.25rem; /* Adjust button size */
+        height: 2.25rem; /* Adjust button size */
+        font-size: 1rem; /* Adjust icon size */
+    }
+}
+

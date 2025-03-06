@@ -1,0 +1,92 @@
+/* Bottom section styles for the profile page */
+.middle-bottom {
+    padding: 1.25rem; /* Add padding around the section */
+    display: flex; /* Use flexbox to align items */
+    flex-wrap: wrap; /* Allow elements to wrap to the next line */
+    gap: 1.25rem; /* Add space between flex items */
+}
+
+/* Card styling for individual items (e.g., paintings) */
+.cards {
+    background-color: var(--variant); /* Dark background for the card */
+    color: var( --primary-color); /* White text color for readability */
+    width: 18.75rem; /* Fixed width for the cards */
+    border-radius: 0.3125rem; /* Rounded corners for the cards */
+    overflow: hidden; /* Prevent overflow from card boundaries */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity effect */
+    margin-left: 4px; /* Small left margin for spacing */
+}
+
+/* Hover effect for the card to indicate interactivity */
+.cards:hover {
+    opacity: 0.7; /* Reduce opacity on hover for a visual cue */
+}
+
+/* Image at the top of the card */
+.card-img-top {
+    width: 100%; /* Ensure the image takes up the full width of the card */
+    height: 18.75rem; /* Fixed height for the image */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+}
+
+/* Body section inside the card */
+.card-body {
+    padding: 0.625rem; /* Padding inside the card body */
+    background-color: var(--variant);
+}
+
+/* Title styling for the card */
+.card-title {
+    font-size: 1.125rem; /* Font size for the card title */
+    color: var( --primary-color); /* White color for the card title */
+}
+
+/* Text styling inside the card */
+.card-text {
+    font-size: 0.875rem; /* Font size for the card description */
+    color: var(--primary-color); /* Light gray color for card text */
+}
+
+/* Sale price or status inside the card */
+.card-sale {
+    font-size: 1rem; /* Font size for sale price or status */
+    color: var(--primary-color); /* Light gray color for sale price text */
+}
+
+/* Primary button styles */
+.btn-primary {
+    background-color: var(--secondary-color); /* Purple background for the button */
+    border: none; /* No border */
+    color: var( --primary-color); /* White text color for the button */
+    padding: 0.5rem 0.9375rem; /* Padding inside the button */
+    border-radius: 0.3125rem; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+}
+
+/* Tabs container styling for navigation */
+.tabs1 {
+    display: flex; /* Use flexbox for tab layout */
+    justify-content: center; /* Center the tabs horizontally */
+    margin: 2rem 3rem; /* Add top and bottom margin, and left-right margin for spacing */
+    font-size: 1.25rem; /* Font size for the tabs */
+    background-color:var( --bg-color); /* Dark background color for the tabs */
+    color: var( --primary-color); /* White text color */
+    border-top: 0.1rem solid var(--secondary-color); /* Purple top border for the tabs */
+}
+
+/* Individual tab styling */
+.tab1 {
+    padding: 0.75rem 1.5rem; /* Padding inside the tab */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+    color: var(--primary-color); /* Light gray color for tab text */
+    background-color: transparent; /* Transparent background */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Active tab styling */
+.tab1.active {
+    font-weight: bold; /* Bold text for the active tab */
+    color:var( --primary-color); /* White text color for the active tab */
+    background-color: var(--secondary-color); /* Purple background for the active tab */
+}

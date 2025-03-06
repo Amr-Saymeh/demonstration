@@ -1,0 +1,187 @@
+.NavContainer{
+    position: fixed;
+    backdrop-filter: blur(50px);
+    padding: 2.5px;
+    left: 30px;
+    top: 150px;
+    width: 60px;
+    border-radius: 1.563rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #996dc6, 0 0 0 1px #996dc6;
+    min-height: 100px;
+    z-index: 10;
+    fill: var(--primary-color);
+}
+
+
+.nav_list{
+    list-style-type: none;
+    line-height:2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.563rem;
+    padding: 0.938rem;
+    margin: 0;
+
+    
+}
+
+
+.NavContainer a{
+    color: var(--primary-color);
+    text-decoration: none;
+    
+    
+
+}
+
+.gal-icon .store-icon .mas-icon .add-icon {
+    position: relative;
+    
+    
+}
+
+.add-icon:hover{
+    background-color: var( --secondary-color);
+    border-radius: 1.563rem;
+    padding: 0 0.8rem;
+    transition: 250ms;
+}
+
+.gal-icon::after{
+
+    content: "";
+    color: var(--primary-color);
+    position:absolute;
+    border-radius: 1.563rem;
+    background-color: var( --secondary-color);
+    width: 0%;
+   
+
+}
+
+.gal-icon:hover::after{
+
+    content: "Create";
+    width:max-content ;
+    left: 65px;
+    padding: 0 0.938rem;
+    transition: 250ms;
+
+}
+
+
+
+.gal-icon::after{
+
+    content: "";
+    color: var(--primary-color);
+    position:absolute;
+    border-radius: 1.563rem;
+    background-color: var( --secondary-color);
+    width: 0%;
+   
+
+}
+
+.gal-icon:hover::after{
+
+    content: "Gallery";
+    width:max-content ;
+    left: 65px;
+    padding: 0 0.938rem;
+    transition: 250ms;
+
+}
+
+.gal-icon:hover{
+
+    background-color: var( --secondary-color);
+    border-radius: 1.563rem;
+    padding: 0 0.8rem;
+    transition: 250ms;
+
+}
+
+
+
+.store-icon::after{
+
+    content: "";
+    color: var(--primary-color);
+    position:absolute;
+    border-radius: 1.563rem;
+    background-color:  var( --secondary-color);
+    width: 0%;
+
+}
+
+.store-icon:hover::after{
+    content: "Store";
+    width:max-content ;
+    left: 65px;
+    padding: 0 0.938rem ;
+    transition: 250ms;
+
+
+}
+
+.store-icon:hover{
+    background-color: var(--secondary-color);
+    border-radius: 1.563rem;
+    padding: 0 0.8rem;
+    transition: 250ms;
+
+}
+
+.mas-icon::after{
+
+    content: "";
+    color: #ffffff;
+    position:absolute;
+    border-radius: 1.563rem;
+    background-color:  var( --secondary-color);
+    border-radius: 1.563rem;
+    width: 0%;
+
+}
+
+
+.mas-icon:hover::after{
+    content: "Community";
+    width:max-content ;
+    left: 65px;
+    padding: 0 0.938rem ;
+    transition: 250ms;
+
+}
+
+.mas-icon:hover{
+    background-color: var( --secondary-color);
+    border-radius: 1.563rem;
+    padding: 0 0.8rem;
+    transition: 250ms;
+}
+.micon:hover{
+    background-color: var( --secondary-color);
+    border-radius: 1.563rem;
+    padding: 0 0.8rem;
+    transition: 250ms;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .NavContainer{
+        width: 50px;
+        left: 10px;
+    }
+
+}
+
+
+

@@ -1,0 +1,271 @@
+/* General split layout with full height and fixed position */
+.split {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Logo size and positioning */
+.logos {
+  height: 10rem;
+  width: 10rem;
+  margin-left: 1.8rem; /* Add space from left */
+}
+
+/* Left section of the page (sidebar) */
+.left {
+  width: 15%;
+  left: 0;
+  background-color: var( --bg-color); /* Dark background */
+  
+}
+
+#nav_lists *{
+  box-sizing: border-box;
+}
+
+/* Container for the navigation menu on the left */
+.NavContainers {
+  position: fixed;
+  background-color: var(--bg-color);
+  padding: 4px;
+  left: 20px; /* Move from the left edge */
+  top: 8rem; /* Position below logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  z-index: 11; /* Ensure it's on top */
+
+}
+
+/* Navigation list (vertical) */
+#nav_lists {
+  list-style-type: none; /* No bullet points */
+  line-height: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items */
+  gap: 2rem;
+  padding: 0.938rem;
+  margin: 0;
+}
+
+/* Links in the sidebar */
+.left a {
+  color: var( --primary-color); /* White text */
+  text-decoration: none; /* No underline */
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+
+
+/* Dark button hover effect */
+.NavContainers a:hover{
+  background-color: var(--secondary-color); /* Purple on hover */
+  border-radius: 1.563rem;
+  padding: 0 0.5rem; /* Padding change */
+  transition: 250ms; /* Smooth transition */
+  
+}
+#dark-icons:hover {
+  background-color: var(--secondary-color); /* Purple on hover */
+  border-radius: 1.563rem;
+  transition: 250ms; /* Smooth transition */
+  
+  
+}
+.sunMoon2{
+  transform-origin: center center;
+  transition: inherit;
+  transform: scale(1);
+  transform: scale(0.55);
+ color: var(--primary-color);
+
+}
+.st-sunMoonThemeToggleBtn svg .sunRay12 {
+  animation-delay: 0s !important;
+  color: var(--primary-color);
+}
+
+.st-sunMoonThemeToggleBtn svg .sunRay22 {
+  animation-delay: 0.05s !important;
+  color: var(--primary-color);
+}
+.st-sunMoonThemeToggleBtn svg .sunRay32 {
+  animation-delay: 0.1s !important;
+  color: var(--primary-color);
+}
+.st-sunMoonThemeToggleBtn svg .sunRay42 {
+  animation-delay: 0.17s !important;
+  color: var(--primary-color);
+}
+.st-sunMoonThemeToggleBtn svg .sunRay52 {
+  animation-delay: 0.25s !important;
+  color: var(--primary-color);
+}
+.st-sunMoonThemeToggleBtn svg .sunRay62 {
+  animation-delay: 0.29s !important;
+  color: var(--primary-color);
+}
+
+
+/* After content for icons (creates visual effect) */
+#gal-icons::after, #store-icons::after, #mas-icons::after, #add-icons::after {
+  content: "";
+  color: var(--primary-color);
+  position: absolute;
+  background-color:var(--secondary-color); /* Purple background */
+  width: 0%; /* Start with no width */
+}
+
+/* Icon font size */
+#gal-icons i, #store-icons i, #mas-icons i {
+  font-size: 1.5rem;
+}
+
+#dark-icons  {
+  font-size: 2rem;
+  display: inline-flex; /* Ensure the icon and text are aligned in a row */
+  
+
+}
+
+/* Menu font size */
+.menus {
+  font-size: 1rem;
+  
+  
+}
+
+/* Hover effect for buttons in left section */
+.left button:hover {
+  background-color: var(--secondary-color); /* Purple on hover */
+  transition: 250ms; /* Smooth transition */
+}
+
+/* Dark icon styling */
+#dark-icons {
+  color: var( --primary-color); /* White icon color */
+  
+}
+
+#dark-icons::after {
+  content: "";
+  color: var( --primary-color);
+  position: absolute;
+  background-color: var(--secondary-color);
+  width: 0%; /* Start with no width */
+}
+.theme-switch2{
+  display: flex;
+  width:50%;
+}
+
+/* Margin adjustments for icons */
+#mas-icons {
+  margin-right: 5.7rem;
+}
+#dark-icons {
+  margin-right: 8rem;
+}
+#gal-icons {
+  margin-right: 7rem;
+}
+#store-icons {
+  margin-right: 7.5rem;
+}
+
+#add-icons {
+  margin-right: 7rem;
+}
+
+/* Floating button styles (circular) */
+.Btn {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+width: 45px;
+height: 45px;
+border: none;
+border-radius: 50%; /* Circle button */
+cursor: pointer;
+position: relative;
+overflow: hidden;
+transition-duration: .3s;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199); /* Small shadow */
+background-color: rgb(227, 73, 160); /* Pink background */
+}
+
+/* Plus sign inside the button */
+.sign {
+width: 100%;
+transition-duration: .3s;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.sign svg {
+width: 17px;
+}
+
+/* White color for the SVG path inside the button */
+.sign svg path {
+fill: var( --primary-color);
+}
+
+/* Text inside the floating button (appears on hover) */
+.text {
+position: absolute;
+right: 0%;
+width: 0%;
+opacity: 0; /* Hidden by default */
+color: var( --primary-color);
+font-size: 1.2em;
+font-weight: 600;
+transition-duration: .3s;
+}
+
+/* Hover effect for expanding button width */
+.Btn:hover {
+width: 125px; /* Expand button */
+border-radius: 40px; /* Slightly rounded edges */
+transition-duration: .3s;
+}
+
+/* Sign (plus) icon moves when button is hovered */
+.Btn:hover .sign {
+width: 30%; /* Shrink the sign icon */
+transition-duration: .3s;
+padding-left: 5px;
+}
+
+/* Text inside button appears on hover */
+.Btn:hover .text {
+opacity: 1; /* Fade in text */
+width: 70%; /* Expand text width */
+transition-duration: .3s;
+padding-right: 10px; /* Space on the right */
+}
+
+/* Button click effect */
+.Btn:active {
+transform: translate(2px, 2px); /* Button moves slightly */
+}
+
+/* Logout button container positioning */
+.logout-container {
+position: fixed;
+background-color: var(--bg-color);
+padding: 4px;
+left: 35px;
+top: 39rem; /* Position near the bottom */
+display: flex;
+justify-content: flex-end; /* Align to the right */
+align-items: flex-end; /* Align to the bottom */
+z-index: 10; /* On top */
+}

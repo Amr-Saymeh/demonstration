@@ -1,0 +1,187 @@
+/* Reset default margin, padding, and set box-sizing to border-box for all elements */
+.verification-box * {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Includes padding and border in the total width and height of the element */
+}
+
+/* Body container styling */
+body.ver-container-body {
+    display: flex; /* Uses Flexbox to center the content */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    min-height: 100vh; /* Ensures the body takes at least the full height of the viewport */
+    margin: 0; /* Removes any default margin */
+    background-color: #1A1A2E; /* Dark background color */
+    font-family: 'Arial', sans-serif; /* Arial font for all text */
+}
+
+/* Main verification box styling */
+.verification-box {
+    width: 26.25rem; /* Fixed width for desktop */
+    background-color: #2a2a3d; /* Dark background color for the box */
+    border-radius: 0.75rem; /* Rounded corners */
+    padding: 1.875rem 1.25rem; /* Padding inside the box */
+    box-shadow: 0 0.625rem 0.9375rem rgba(0, 0, 0, 0.2); /* Soft shadow for a 3D effect */
+    text-align: center; /* Centers the text inside the box */
+}
+
+/* Heading styling */
+.verification-box h1 {
+    font-size: 2.25rem; /* Larger font size for the heading */
+    color: #f3f3f3; /* White text color */
+    margin-bottom: 1.25rem; /* Margin below the heading */
+}
+
+/* Paragraph styling */
+.verification-box p {
+    font-size: 0.875rem; /* Smaller font size for paragraph */
+    color: #f3f3f3; /* White text color */
+    margin-bottom: 1.25rem; /* Margin below the paragraph */
+}
+
+/* Link styling inside the box */
+.verification-box a {
+    color: #996DC6; /* Light purple color for links */
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.2s ease; /* Smooth color transition on hover */
+}
+
+.verification-box a:hover {
+    color: #B38AD9; /* Lighter color on hover */
+}
+
+/* Form styling */
+.verification-box form {
+    display: flex; /* Flexbox to arrange inputs and buttons vertically */
+    flex-direction: column; /* Stacks form elements vertically */
+    gap: 1.25rem; /* Space between form elements */
+}
+
+/* Label styling */
+.verification-box form label {
+    font-size: 0.875rem; /* Font size for the label */
+    color: #f3f3f3; /* White text color */
+    margin-bottom: 0.3125rem; /* Margin below the label */
+}
+
+/* Input field styling */
+.verification-box form input {
+    width: 100%; /* Full width of the form */
+    height: 3.125rem; /* Height of the input fields */
+    background: transparent; /* Transparent background */
+    border: 0.125rem solid rgba(255, 255, 255, 0.3); /* Light border */
+    border-radius: 2.5rem; /* Rounded corners */
+    font-size: 1rem; /* Font size inside the input field */
+    color: #f3f3f3; /* White text color */
+    padding: 0 1.25rem; /* Padding inside the input field */
+    outline: none; /* Removes outline when focused */
+    transition: all 0.3s ease-in-out; /* Smooth transition for focus effect */
+}
+
+/* Input field focus effect */
+.verification-box form input:focus {
+    border-color: #996DC6; /* Change border color when focused */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on focus */
+}
+
+/* Placeholder text styling */
+.verification-box form input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Lighter placeholder text */
+}
+
+/* Verification button styling */
+.verification-box .verify-btn {
+    width: 50%; /* Button width */
+    height: 2.5rem; /* Button height */
+    background-color: #996DC6; /* Purple background color */
+    color: #f3f3f3; /* White text color */
+    font-size: 1rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    border: none; /* No border */
+    border-radius: 2.5rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+    margin-top: 1.25rem; /* Margin at the top */
+    align-self: center; /* Centers the button */
+    text-align: center; /* Centers the text inside the button */
+}
+
+/* Button hover effect */
+.verification-box .verify-btn:hover {
+    background-color: #B38AD9; /* Lighter purple on hover */
+}
+
+/* Button active effect */
+.verification-box .verify-btn:active {
+    transform: scale(0.98); /* Shrinks button on click */
+}
+
+/* Button link styling */
+.verification-box .verify-btn a {
+    color: #f3f3f3; /* White text for the link inside the button */
+    text-decoration: none; /* No underline */
+}
+
+.verification-box .verify-btn a:hover {
+    color: #f3f3f3; /* Hover color for the button link */
+}
+
+/* Last paragraph inside the box styling */
+.verification-box p:last-of-type {
+    margin-top: 1.25rem; /* Adds top margin for the last paragraph */
+}
+
+/* Responsive Design */
+
+/* For tablets and screens up to 768px */
+@media (max-width: 768px) {
+    .verification-box {
+        width: 90%; /* Takes 90% of the width on smaller screens */
+        padding: 1.5rem; /* Reduces padding */
+    }
+
+    .verification-box h1 {
+        font-size: 1.75rem; /* Smaller font size for the heading */
+    }
+
+    .verification-box p {
+        font-size: 0.75rem; /* Smaller font size for the paragraph */
+    }
+
+    .verification-box form input {
+        height: 2.5rem; /* Smaller input height */
+        font-size: 0.875rem; /* Smaller font size */
+    }
+
+    .verification-box .verify-btn {
+        width: 60%; /* Button width adjusted */
+        font-size: 1rem; /* Smaller font size */
+    }
+}
+
+/* For mobile screens up to 480px */
+@media (max-width: 480px) {
+    .verification-box {
+        width: 90%; /* Takes 90% of the width on very small screens */
+        padding: 1.25rem; /* Further reduced padding */
+    }
+
+    .verification-box h1 {
+        font-size: 1.5rem; /* Smaller heading font size */
+    }
+
+    .verification-box p {
+        font-size: 0.75rem; /* Smaller paragraph font size */
+    }
+
+    .verification-box form input {
+        height: 2.25rem; /* Reduced input height */
+        font-size: 0.875rem; /* Smaller font size */
+    }
+
+    .verification-box .verify-btn {
+        width: 70%; /* Button width adjusted for mobile */
+        font-size: 1rem; /* Font size for button */
+    }
+}

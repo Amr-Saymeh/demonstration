@@ -1,0 +1,144 @@
+/* Modal container, initially hidden */
+#settingsModal {
+    display: none; 
+    position: fixed; /* Fixed positioning to overlay the whole screen */
+    top: 0; /* Aligns the modal at the top */
+    left: 0; /* Aligns the modal to the left */
+    width: 100%; /* Takes full width of the screen */
+    height: 100%; /* Takes full height of the screen */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    justify-content: center; /* Centers modal content horizontally */
+    align-items: center; /* Centers modal content vertically */
+    animation: fadeIn 0.3s ease-out; /* Smooth fade-in animation */
+    z-index: 1000; /* Ensures the modal is on top */
+}
+
+/* Modal content box */
+.modal-contentSettings {
+    background-color: white; /* White background for the modal */
+    padding: 2rem; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Fixed width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    position: relative; /* Position relative for close button */
+    font-family: Arial, sans-serif; /* Font for the modal content */
+}
+
+/* Close button in the top-right corner */
+.close-settings {
+    position: absolute;
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    font-size: 1.5rem; /* Font size */
+    color: #333; /* Dark color */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Close button hover effect */
+.close-settings:hover {
+    color: #ff3e3e; /* Red color on hover */
+}
+
+/* Title of the modal */
+.modal-content h3 {
+    font-size: 1.5rem; /* Font size for the title */
+    margin-bottom: 1rem; /* Margin below the title */
+    text-align: center; /* Center align the title */
+    color: #333; /* Dark color */
+}
+
+/* Settings option layout */
+.settings-option {
+    margin: 1.5rem 0; /* Vertical margin */
+    font-size: 1rem; /* Font size */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically centers the items */
+    justify-content: space-between; /* Spreads the label and input */
+}
+
+/* Style for the label inside settings option */
+.settings-option label {
+    margin-right: 1rem; /* Right margin to separate from input */
+    color: #555; /* Lighter color for the label */
+}
+
+/* Checkbox style */
+.settings-option input[type="checkbox"] {
+    width: 20px; /* Checkbox width */
+    height: 20px; /* Checkbox height */
+    margin-left: 0.5rem; /* Space between label and checkbox */
+    cursor: pointer; /* Pointer cursor on hover */
+    appearance: none; /* Remove default checkbox appearance */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners for the checkbox */
+    position: relative; /* Position for the checkmark */
+    background-color: white; /* White background */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for background and border */
+}
+
+/* Checkbox when checked */
+.settings-option input[type="checkbox"]:checked {
+    background-color: var(--secondary-color); /* Purple background when checked */
+    border-color: var(--secondary-color); /* Border turns purple */
+}
+
+/* Checkmark icon inside the checkbox when checked */
+.settings-option input[type="checkbox"]:checked::before {
+    content: ''; /* Empty content for the checkmark */
+    position: absolute; /* Position the checkmark inside the checkbox */
+    top: 2px; /* Top positioning */
+    left: 6px; /* Left positioning */
+    width: 4px; /* Width of the checkmark line */
+    height: 8px; /* Height of the checkmark line */
+    border-left: 2px solid white; /* Left part of the checkmark */
+    border-bottom: 2px solid white; /* Bottom part of the checkmark */
+    transform: rotate(45deg) scaleX(-1); /* Rotate to form a checkmark */
+}
+
+/* Hide the checkmark when checkbox is not checked */
+.settings-option input[type="checkbox"]:not(:checked)::before {
+    display: none; /* Hide the checkmark */
+}
+
+/* Special style for notifications option */
+.settings-option.notifications {
+    margin-right: 2rem; /* Extra margin to the right */
+    background-color: var(--secondary-color); /* Purple background */
+}
+
+/* Input and select field styles */
+.settings-option input,
+.settings-option select {
+    width: 100%; /* Full width */
+    padding: 0.5rem; /* Padding inside the input */
+    margin-top: 0.3rem; /* Small margin above the input */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    color: #333; /* Text color */
+}
+
+/* Focused input and select fields */
+.settings-option input:focus,
+.settings-option select:focus {
+    outline: none; /* Remove default outline */
+    border-color: var(--secondary-color); /* Purple border on focus */
+}
+
+/* Save button style */
+.save-settings {
+    background-color: var(--secondary-color); /* Purple background */
+    color: white; /* White text */
+    padding: 0.8rem; /* Padding around the button */
+    width: 100%; /* Full width */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Hover effect for save button */
+.save-settings:hover {
+    background-color: var(--secondary-color); /* Keep the purple color on hover */
+}

@@ -1,0 +1,123 @@
+/* Profile container styles */
+.profile-container {
+    position: relative; /* Positioning for inner elements */
+    margin: 1.25rem auto; /* Center container with vertical margin */
+    text-align: center; /* Center text alignment */
+    width: 70rem; /* Fixed width for the profile container */
+    height: 20rem; /* Fixed height for the profile container */
+    overflow: visible; /* Allow overflow content */
+}
+
+/* Background image for the profile container */
+.back {
+    position: absolute; /* Absolute position to fill the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the entire area */
+    z-index: 0; /* Set behind the profile picture */
+    box-shadow: 0 4px 8px rgba(153, 14, 165, 0.3); /* Soft shadow around the background */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+/* Profile image container */
+.profiles {
+    position: absolute; /* Absolute positioning within profile-container */
+    top: 75%; /* Place the profile picture towards the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Perfectly center vertically and horizontally */
+    width: 15vw; /* Responsive width based on viewport */
+    height: 15vw; /* Ensure square aspect ratio */
+    max-width: 11rem; /* Max size limit for the profile picture */
+    max-height: 11rem; /* Max height to ensure it doesn't exceed this size */
+    border-radius: 50%; /* Make the profile image round */
+    border: 0.25rem solid var( --primary-color); /* White border around the profile picture */
+    z-index: 1; /* Place above the background */
+    background-color: var( --bg-color); /* White background for the profile picture */
+}
+
+/* Media query for smaller screens (max-width 768px) */
+@media (max-width: 768px) {
+    .profiles {
+        width: 25vw; /* Adjust profile picture size on smaller screens */
+        height: 25vw;
+        max-width: 8rem; /* Max size reduced for smaller screens */
+        max-height: 8rem; /* Max height reduced */
+        left: 28%; /* Adjust horizontal positioning for smaller screens */
+        top: 80%; /* Adjust vertical positioning */
+    }
+}
+
+/* Profile details section */
+.profile-details {
+    display: flex;
+    flex-direction: column; /* Stack the details vertically */
+    color: var( --primary-color); /* White text color */
+    margin: 1.25rem auto; /* Center the profile details with margin */
+    text-align: center; /* Center text in details section */
+}
+
+/* Styling for the user's status */
+.status {
+    margin: 0.625rem 0; /* Margin around the status text */
+    font-size: 1.25rem; /* Font size for the status */
+    color: var(--primary-color);
+}
+
+/* Styling for status spans */
+.status span {
+    margin-right: 0.625rem; /* Space between status text and span */
+    color: var(--primary-color);
+}
+
+/* Bio text area styling */
+.bio {
+    text-align: center; /* Center align the bio text */
+    resize: none; /* Prevent resizing of the text area */
+    font-size: 1.125rem; /* Font size for the bio */
+    background-color: var(--bg-color); /* Dark background color for the bio */
+    color: var( --primary-color); /* White text color */
+    border: none; /* Remove border */
+    font-family: 'Times New Roman', Times, serif; /* Elegant serif font for bio */
+    margin: 0.625rem auto; /* Center the bio with margin */
+    padding: 0.625rem; /* Padding inside the bio section */
+    width: 90%; /* Take up 90% of the container's width */
+    max-width: 37.5rem; /* Limit max width for the bio */
+}
+
+/* Follow button styles */
+button.Follow-btn {
+    padding: 0.3125rem 0.9375rem; /* Padding inside the button */
+    width: 6rem; /* Fixed width for the follow button */
+    background-color: var(--secondary-color); /* Purple background color */
+    color: var( --primary-color); /* White text color */
+    border: none; /* Remove border */
+    border-radius: 0.3125rem; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 0.625rem; /* Space between buttons */
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition for background color and scaling */
+}
+
+/* Hover effect for the follow button */
+button.Follow-btn:hover {
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    background-color: #9a43d9; 
+}
+
+/* Followed button state */
+button.followed {
+    background-color: #4e0781 !important; /* Darker purple for followed state */
+    color: var(--light); /* White text color */
+}
+
+/* Comment icon styles */
+.fa-commenting {
+    cursor: pointer; /* Pointer cursor on hover */
+    color:var(--primary-color);
+}
+
+/* Small padding for the top section */
+.middle-top {
+    padding: 0.1rem; /* Minor padding for the middle-top section */
+}

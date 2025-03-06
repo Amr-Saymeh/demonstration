@@ -1,0 +1,77 @@
+.shop-styling .footer button > svg {
+    margin-left: 5px;
+    transition: all 0.4s ease-in;
+  }
+  
+  .shop-styling .next-footer:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(6px);
+  }
+  .shop-styling footer{
+    display: flex;
+    grid-area: footer;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 15em;
+    overflow-x: visible;
+}
+.shop-styling footer *{
+  overflow-x: visible;
+}
+
+  .shop-styling .back-footer{
+    
+    flex-direction: row-reverse;
+  }
+  .shop-styling .back-footer > svg{
+    transform: rotate(180deg);
+    margin-right: 5px;
+  }
+  .shop-styling .back-footer:hover > svg {
+    font-size: 1.2em;
+    transform: rotate(180deg)
+    translateX(6px)
+  }
+
+
+
+@media (max-width: 768px) {
+    .shop-styling footer {
+        margin-left: 5em;
+        margin-right: 0;
+        
+    }
+    .shop-styling .footer.active{
+      margin-left: 25em;
+    }
+    .shop-styling footer *{
+      font-size: 12px;
+    }
+
+    .shop-styling .next-footer,
+    .shop-styling .back-footer {
+        margin: 1em;
+    }
+
+    .shop-styling .footer button > svg {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .shop-styling footer {
+        margin-top: 5%;
+    }
+
+    .shop-styling .footer button > svg {
+        font-size: 0.9em;
+    }
+
+    .shop-styling .next-footer:hover > svg,
+    .shop-styling .back-footer:hover > svg {
+        font-size: 1em;
+        transform: translateX(3px);
+    }
+}

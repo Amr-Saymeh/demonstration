@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "title": "Epic Battle Scene",
+    "subtitle": "By John Doe",
+    "price": 150.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/627bc589-b21e-47b2-8cf2-7617185ee1ac/dc6ppi7-e65e2942-6a85-4e16-a733-3b81791b588c.jpg/v1/fill/w_1024,h_577,q_75,strp/showdown_by_alynspiller_dc6ppi7-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc3IiwicGF0aCI6IlwvZlwvNjI3YmM1ODktYjIxZS00N2IyLThjZjItNzYxNzE4NWVlMWFjXC9kYzZwcGk3LWU2NWUyOTQyLTZhODUtNGUxNi1hNzMzLTNiODE3OTFiNTg4Yy5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.L3Y8N3wEI9WjfsZ0rw5O7FSoFEC_XhTAsEIQP3LcHVA",
+
+    "category": "Concept Art",
+    "for_sale": true,
+    "description": "An epic scene showcasing a fierce battle between two mighty warriors in a vast battlefield."
+  },
+  {
+    "id": 2,
+    "title": "Ancient Ruins",
+    "subtitle": "By Alice Smith",
+    "price": 200.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f7b468e6-d969-4012-b696-8e212c8438cb/d9puru6-5ea01372-c5f1-4747-9bce-fd02749539b1.jpg/v1/fit/w_828,h_380,q_70,strp/ruins_underground_by_asahisuperdry_d9puru6-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzM0IiwicGF0aCI6IlwvZlwvZjdiNDY4ZTYtZDk2OS00MDEyLWI2OTYtOGUyMTJjODQzOGNiXC9kOXB1cnU2LTVlYTAxMzcyLWM1ZjEtNDc0Ny05YmNlLWZkMDI3NDk1MzliMS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Tcf6a07kz1KgAckAqf1agkbPDcKl08VB6ac1Vi2A6PY",
+
+    "category": "Environment Design",
+    "for_sale": true,
+    "description": "A breathtaking view of ancient ruins overgrown with sand and rocks, evoking a sense of mystery."
+  },
+  {
+    "id": 3,
+    "title": "Fantasy Warrior",
+    "subtitle": "By Chris Johnson",
+    "price": 450.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00f6ed51-f1ee-44ed-8e6f-ab16c838cef0/d9pqxqg-f982a5d9-4407-4472-adf3-eda3018a66f9.jpg/v1/fit/w_828,h_442,q_70,strp/death_battlefield_by_manthoslappas_d9pqxqg-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU2IiwicGF0aCI6IlwvZlwvMDBmNmVkNTEtZjFlZS00NGVkLThlNmYtYWIxNmM4MzhjZWYwXC9kOXBxeHFnLWY5ODJhNWQ5LTQ0MDctNDQ3Mi1hZGYzLWVkYTMwMThhNjZmOS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.588x-q9a5FBsR7gSAYcllJ6Ejr0U9VWmbaru26U23Rg",
+
+    "category": "Character Design",
+    "for_sale": true,
+    "description": "A warrior from a fantasy world, ready for battle with intricate armor and a powerful stance."
+  },
+  {
+    "id": 4,
+    "title": "Mystical Forest",
+    "subtitle": "By Emily Davis",
+    "price": 250.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7703d5c4-57e2-45b0-87cf-75c484f1c240/dhp7sdi-082afdbd-b89f-4937-a22d-bd4daff7d7f4.png/v1/fit/w_828,h_552,q_70,strp/mystical_forests___midjourney_by_midjourneycommunity_dhp7sdi-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvNzcwM2Q1YzQtNTdlMi00NWIwLTg3Y2YtNzVjNDg0ZjFjMjQwXC9kaHA3c2RpLTA4MmFmZGJkLWI4OWYtNDkzNy1hMjJkLWJkNGRhZmY3ZDdmNC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.mjJ1HmaKpOXjVTGKTVEJQpnPeTI9-q22wdFxwfGFirc",
+
+    "category": "Environment Design",
+    "for_sale": true,
+    "description": "A magical forest filled with glowing trees and mystical creatures, capturing the essence of fantasy."
+  },
+  {
+    "id": 5,
+    "title": "Dragon Rider",
+    "subtitle": "By Michael Brown",
+    "price": 300.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ba4f1a35-37ad-4627-93f1-798ba8df3668/d85x7o7-84b2703b-2c61-406c-9f9d-47f96657e309.jpg/v1/fit/w_828,h_490,q_70,strp/dargon_rider_by_leekent_d85x7o7-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTQ3IiwicGF0aCI6IlwvZlwvYmE0ZjFhMzUtMzdhZC00NjI3LTkzZjEtNzk4YmE4ZGYzNjY4XC9kODV4N283LTg0YjI3MDNiLTJjNjEtNDA2Yy05ZjlkLTQ3Zjk2NjU3ZTMwOS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.EUtZyU5pcHMY_oHt2vsqrARaMZvAjsXn5yoA5uDk1Qw",
+
+    "category": "Fantasy Art",
+    "for_sale": true,
+    "description": "A daring rider perched atop a fierce dragon soaring through the skies in a breathtaking display of power."
+  },
+  {
+    "id": 6,
+    "title": "Robot Design",
+    "subtitle": "By Sarah Wilson",
+    "price": 500.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d78d6fc9-756e-4ac7-82ce-27a21c61674d/d9ojws3-d1fe01da-0f46-4d93-9258-595aac62b69d.jpg/v1/fill/w_1554,h_514,q_70,strp/robot_recap_03_by_duster132_d9ojws3-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTMwIiwicGF0aCI6IlwvZlwvZDc4ZDZmYzktNzU2ZS00YWM3LTgyY2UtMjdhMjFjNjE2NzRkXC9kOW9qd3MzLWQxZmUwMWRhLTBmNDYtNGQ5My05MjU4LTU5NWFhYzYyYjY5ZC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.72g-Qsjq2mD6n9l2PG8kaNE_t-U1d-AUgCYI-T1Z3rA",
+
+    "category": "Character Design",
+    "for_sale": true,
+    "description": "A futuristic robot with sleek, metallic design, ready to face any challenge with advanced technology."
+  },
+  {
+    "id": 7,
+    "title": "Cyberpunk City",
+    "subtitle": "By Olivia Johnson",
+    "price": 500.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ef9c5b5-d947-4c39-8fd7-4fc3a629a539/devnaz8-36f41d6f-9430-403a-831a-6839ca7fbc19.jpg/v1/fit/w_828,h_466,q_70,strp/cyberpunk_rooftop_by_ninerio_devnaz8-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvM2VmOWM1YjUtZDk0Ny00YzM5LThmZDctNGZjM2E2MjlhNTM5XC9kZXZuYXo4LTM2ZjQxZDZmLTk0MzAtNDAzYS04MzFhLTY4MzljYTdmYmMxOS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ANcabszEOQwnq4ZbR67-3GDtqMEAXts0sIzyAqT8hJg",
+
+    "category": "Game Art",
+    "for_sale": true,
+    "description": "A vibrant cyberpunk cityscape full of neon lights, towering skyscrapers, and bustling streets."
+  },
+  {
+    "id": 8,
+    "title": "Dark Forest",
+    "subtitle": "By Laura Roberts",
+    "price": 350.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f49b7fed-bb8c-4ce3-b207-f7ea09481dc9/d4yjpvb-b37a7bd5-c3ad-4b31-9998-9c0b1fdae12e.jpg/v1/fit/w_828,h_414,q_70,strp/dark_forest_by_vityar83_d4yjpvb-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUwIiwicGF0aCI6IlwvZlwvZjQ5YjdmZWQtYmI4Yy00Y2UzLWIyMDctZjdlYTA5NDgxZGM5XC9kNHlqcHZiLWIzN2E3YmQ1LWMzYWQtNGIzMS05OTk4LTljMGIxZmRhZTEyZS5qcGciLCJ3aWR0aCI6Ijw9MTMwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.RiVRjApeqOEKyGmwBYn7QEy810hgCBfKsW9bjampHpI",
+
+    "category": "Concept Art",
+    "for_sale": true,
+    "description": "A dark, eerie forest where shadowy figures lurk behind twisted trees and fog fills the air."
+  },
+  {
+    "id": 9,
+    "title": "Alien Planet",
+    "subtitle": "By Steven Grey",
+    "price": 275.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cb218ccf-7a10-4ab7-91da-d596d1b65c0a/deozyu5-2a58be50-bcc4-4fc0-b169-c0ebd6f488db.jpg/v1/fit/w_828,h_466,q_70,strp/project_nebula__colonization_by_lorddoomhammer_deozyu5-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2NiMjE4Y2NmLTdhMTAtNGFiNy05MWRhLWQ1OTZkMWI2NWMwYVwvZGVvenl1NS0yYTU4YmU1MC1iY2M0LTRmYzAtYjE2OS1jMGViZDZmNDg4ZGIuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.DupLEAW4tR3dKwg5rOGRen4WYrJT89bbh634gnZcrZE",
+
+    "category": "Game Art",
+    "for_sale": true,
+    "description": "A striking alien planet, featuring strange landscapes and vibrant alien flora."
+  },
+  {
+    "id": 10,
+    "title": "Sci-Fi Space Battle",
+    "subtitle": "By Anna Lewis",
+    "price": 400.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1df312e2-ef11-4c09-a14c-f4e296673cdb/d8mcgsd-432366ea-9314-4864-b1d0-10a0e1b51189.jpg/v1/fit/w_828,h_626,q_70,strp/the_defense_of_yavin_4_by_madboni_d8mcgsd-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEzNCIsInBhdGgiOiJcL2ZcLzFkZjMxMmUyLWVmMTEtNGMwOS1hMTRjLWY0ZTI5NjY3M2NkYlwvZDhtY2dzZC00MzIzNjZlYS05MzE0LTQ4NjQtYjFkMC0xMGEwZTFiNTExODkuanBnIiwid2lkdGgiOiI8PTE1MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.WDkYdnM8isdVllt5jCbNTZjdWtyJmVqpTSd13Cg8iLk",
+
+    "category": "Concept Art",
+    "for_sale": true,
+    "description": "A high-intensity space battle between futuristic spaceships in the cold vastness of space."
+  },
+  {
+    "id": 11,
+    "title": "Battlefield Glory",
+    "subtitle": "By Ethan Clark",
+    "price": 600.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1049649d-9910-4ac9-b690-7f50d09a41b1/dcnrb5c-712dae93-232b-4c62-a4f6-afc3657977a8.jpg/v1/fit/w_828,h_466,q_70,strp/battleworn_achilles_by_stuharrington_dcnrb5c-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvMTA0OTY0OWQtOTkxMC00YWM5LWI2OTAtN2Y1MGQwOWE0MWIxXC9kY25yYjVjLTcxMmRhZTkzLTIzMmItNGM2Mi1hNGY2LWFmYzM2NTc5NzdhOC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.SZFoOkk3PVPr_jQHrmoXcVuDE_bt6PSPNty4YRYjyGg",
+
+    "category": "Character Design",
+    "for_sale": true,
+    "description": "A warrior in full battle armor, standing victorious after a fierce combat."
+  },
+  {
+    "id": 12,
+    "title": "Underwater World",
+    "subtitle": "By Mia Taylor",
+    "price": 250.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e176d520-cf6a-4d56-87d8-9310b80f79e3/d6m9u0z-51b02fb3-e5cd-43b7-b5d0-bb34e00137b2.jpg/v1/fill/w_1024,h_576,q_75,strp/atlantis_valley_by_adam_varga_d6m9u0z-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZTE3NmQ1MjAtY2Y2YS00ZDU2LTg3ZDgtOTMxMGI4MGY3OWUzXC9kNm05dTB6LTUxYjAyZmIzLWU1Y2QtNDNiNy1iNWQwLWJiMzRlMDAxMzdiMi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.PXY64nMeS9tc5AMdPAPvU3lh_9-ETV58MkMmEkn30c4",
+
+    "category": "Environment Design",
+    "for_sale": true,
+    "description": "An underwater realm teeming with vibrant marine life and mysterious underwater structures."
+  },
+  {
+    "id": 13,
+    "title": "Medieval Fortress",
+    "subtitle": "By Lucas Adams",
+    "price": 350.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8e1d5f84-6bdf-4c70-99a5-1716cfe4992c/de3f7o2-47cb8061-43b3-4a69-a988-80ba46314591.jpg/v1/fit/w_828,h_414,q_70,strp/the_northern_limit_by_andisreinbergs_de3f7o2-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvOGUxZDVmODQtNmJkZi00YzcwLTk5YTUtMTcxNmNmZTQ5OTJjXC9kZTNmN28yLTQ3Y2I4MDYxLTQzYjMtNGE2OS1hOTg4LTgwYmE0NjMxNDU5MS5qcGciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.JZQpa8FURmwaH65Cf3LDa6UbA--fK5LhbERQVOywBGk",
+
+    "category": "Environment Design",
+    "for_sale": true,
+    "description": "A massive medieval fortress overlooking a battlefield, complete with towering walls and battlements."
+  },
+  {
+    "id": 14,
+    "title": "Futuristic Soldier",
+    "subtitle": "By Grace Lewis",
+    "price": 450.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e94bd23-5a2a-41eb-a84a-0f52da077086/d64kgdf-68eff41f-25d7-4856-8259-35cc2d38aea5.jpg/v1/fill/w_1024,h_551,q_75,strp/russian_soldiers__futuristic_concept_by_badillafloyd_d64kgdf-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTUxIiwicGF0aCI6IlwvZlwvNWU5NGJkMjMtNWEyYS00MWViLWE4NGEtMGY1MmRhMDc3MDg2XC9kNjRrZ2RmLTY4ZWZmNDFmLTI1ZDctNDg1Ni04MjU5LTM1Y2MyZDM4YWVhNS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.HyE_MOQhA3MZuSm94TWscdr1PQ5qj6Ewc8mrdvqU9F8",
+
+    "category": "Character Design",
+    "for_sale": true,
+    "description": "A futuristic soldier clad in advanced armor, ready to face new threats in a high-tech world."
+  },
+  {
+    "id": 15,
+    "title": "The Last City",
+    "subtitle": "By Joel Miller",
+    "price": 500.0,
+    "image": "https://cdnb.artstation.com/p/assets/images/images/054/303/151/4k/hugh-trombley-hugh-trombley-tlou-p1-hunter-city-approach-01.jpg?1664229908",
+
+    "category": "Game Art",
+    "for_sale": true,
+    "description": "The last surviving city after an apocalyptic event, a beacon of hope in a desolate world."
+  },
+  {
+    "id": 16,
+    "title": "Druid Forest",
+    "subtitle": "By Isabella Scott",
+    "price": 275.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8776250c-1249-49d1-a447-222e30c352a7/d9joc6l-33ddb052-62a0-418b-aab3-44ee4966389f.jpg/v1/fit/w_828,h_402,q_70,strp/stealthy_approach_by_piotrdura_d9joc6l-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzc4IiwicGF0aCI6IlwvZlwvODc3NjI1MGMtMTI0OS00OWQxLWE0NDctMjIyZTMwYzM1MmE3XC9kOWpvYzZsLTMzZGRiMDUyLTYyYTAtNDE4Yi1hYWIzLTQ0ZWU0OTY2Mzg5Zi5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0NA9WSy8zfnhfbaqFUBHTy9nrUFc9IWVLj5jaCHbljo",
+
+    "category": "Fantasy Art",
+    "for_sale": true,
+    "description": "A mystical forest inhabited by druids, with ancient trees and a sense of magic in the air."
+  },
+  {
+    "id": 17,
+    "title": "Mecha Warrior",
+    "subtitle": "By Noah Harris",
+    "price": 400.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/733184d9-9376-4b90-8442-fe7cb9c2e0cc/dd70tqn-22350859-c60f-4933-8f4f-b22e390920c0.jpg/v1/fit/w_828,h_408,q_70,strp/mechanical_civil_war_by_ptitvinc_dd70tqn-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjMwIiwicGF0aCI6IlwvZlwvNzMzMTg0ZDktOTM3Ni00YjkwLTg0NDItZmU3Y2I5YzJlMGNjXC9kZDcwdHFuLTIyMzUwODU5LWM2MGYtNDkzMy04ZjRmLWIyMmUzOTA5MjBjMC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.mHXwjA4bDVJE9bRNISXoaOk16bIOa7Ux-2nElcSdrvQ",
+
+    "category": "Character Design",
+    "for_sale": true,
+    "description": "A towering mecha warrior designed for battle, with futuristic weaponry and incredible power."
+  },
+  {
+    "id": 18,
+    "title": "Wasteland Survivors",
+    "subtitle": "By Ava Robinson",
+    "price": 300.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c6e0590-011b-4912-bfe4-9353b6e5dc98/dces1oh-58cb7b38-d517-4f03-aa65-1dd9ac27d69f.jpg/v1/fit/w_828,h_466,q_70,strp/mining_town_by_eddie_mendoza_dces1oh-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MSIsInBhdGgiOiJcL2ZcLzBjNmUwNTkwLTAxMWItNDkxMi1iZmU0LTkzNTNiNmU1ZGM5OFwvZGNlczFvaC01OGNiN2IzOC1kNTE3LTRmMDMtYWE2NS0xZGQ5YWMyN2Q2OWYuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.9BuBLJViWoqg6XH0CjgXPtiCvfCI1ujN73UNzFrQvqY",
+
+    "category": "Game Art",
+    "for_sale": true,
+    "description": "A group of survivors navigating a harsh wasteland, ready to confront the dangers ahead."
+  },
+  {
+    "id": 19,
+    "title": "The old Colosseum",
+    "subtitle": "By Liam Walker",
+    "price": 350.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5676e946-eac5-462d-8385-566c5e7b4794/d80yv07-c6b4477c-ff44-4ffb-b01b-86fa0cf3166c.jpg/v1/fit/w_828,h_424,q_70,strp/the_old_colosseum_by_flaviobolla_d80yv07-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU1IiwicGF0aCI6IlwvZlwvNTY3NmU5NDYtZWFjNS00NjJkLTgzODUtNTY2YzVlN2I0Nzk0XC9kODB5djA3LWM2YjQ0NzdjLWZmNDQtNGZmYi1iMDFiLTg2ZmEwY2YzMTY2Yy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.1yYV3xCH7GMvrILTRfs5NyQ8e0Su0stUyjDGE0Y1peY",
+
+    "category": "Fantasy Art",
+    "for_sale": true,
+    "description": "My newest personal work, been quite a while since my last one here :) This was a remake of an older picture, which I liked in terms of composition and idea. Thanks for taking a look at my stuff."
+  },
+  {
+    "id": 20,
+    "title": "Skyline Adventure",
+    "subtitle": "By Ella King",
+    "price": 450.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7d185393-7bf0-465b-b68b-fccf3240c210/db4cwf6-29139320-de9d-4777-bc48-58f59cc81b5e.jpg/v1/fit/w_828,h_466,q_70,strp/back_to_the_future_4___the_journey_by_tohad_db4cwf6-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzdkMTg1MzkzLTdiZjAtNDY1Yi1iNjhiLWZjY2YzMjQwYzIxMFwvZGI0Y3dmNi0yOTEzOTMyMC1kZTlkLTQ3NzctYmM0OC01OGY1OWNjODFiNWUuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.V49a5G3MKjtbnMEy3Dk56OHW2uCxxpWfXmJnybY8zU0",
+
+    "category": "Concept Art",
+    "for_sale": true,
+    "description": "An exciting skyline view filled with futuristic buildings, captured during an adventurous journey."
+  },
+  {
+    "id": 21,
+    "title": "Royal Guard",
+    "subtitle": "By James Carter",
+    "price": 550.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2bffe17a-8faf-4f07-b053-adb2c9ed63b1/dgp0uxq-46c7e4fa-b249-4fbe-86d6-c9b6d05eec0d.jpg/v1/fill/w_894,h_894,q_70,strp/knights__by_dark_psyco_dgp0uxq-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzJiZmZlMTdhLThmYWYtNGYwNy1iMDUzLWFkYjJjOWVkNjNiMVwvZGdwMHV4cS00NmM3ZTRmYS1iMjQ5LTRmYmUtODZkNi1jOWI2ZDA1ZWVjMGQuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.UpaQ0Wb06XnG-hDtdVOUqiR-no9x1RlFS6qgFrbhLVg",
+
+    "category": "Character Design",
+    "for_sale": true,
+    "description": "A royal guard standing firm with an elegant suit of armor, watching over the kingdom."
+  },
+  {
+    "id": 22,
+    "title": "Lost Kingdom",
+    "subtitle": "By Sophie Young",
+    "price": 600.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c0c91ffa-c7cc-4f91-bcb6-f2cae1abbb2c/dhepkwu-d696e49a-9545-4d75-b9ac-d47cbbc5cc7d.jpg/v1/fit/w_828,h_496,q_70,strp/lost_ancient_kingdom__by_lokittmichal_dhepkwu-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvYzBjOTFmZmEtYzdjYy00ZjkxLWJjYjYtZjJjYWUxYWJiYjJjXC9kaGVwa3d1LWQ2OTZlNDlhLTk1NDUtNGQ3NS1iOWFjLWQ0N2NiYmM1Y2M3ZC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6NKwnXMETpnhFhBhRWM_gmdZlQmaRokAK2-yrvjNlSc",
+
+    "category": "Environment Design",
+    "for_sale": true,
+    "description": "The remnants of a once-great kingdom now lost to time, with decaying castles and abandoned streets."
+  },
+  {
+    "id": 23,
+    "title": "Night Raiders",
+    "subtitle": "By Benjamin Moore",
+    "price": 500.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/76040920-6fba-49e2-9d96-845808705016/d7epmw6-b6b32c94-34dc-4153-987e-3fcfbd01a354.jpg/v1/fit/w_828,h_452,q_70,strp/ghost_recon_future_soldier_by_maccola_d7epmw6-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njk5IiwicGF0aCI6IlwvZlwvNzYwNDA5MjAtNmZiYS00OWUyLTlkOTYtODQ1ODA4NzA1MDE2XC9kN2VwbXc2LWI2YjMyYzk0LTM0ZGMtNDE1My05ODdlLTNmY2ZiZDAxYTM1NC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.irhL_7LvfIF6HPZ_fbO598P5Y--TW9yjobqMLLcic90",
+
+    "category": "Concept Art",
+    "for_sale": true,
+    "description": "A group of daring night raiders sneaking through a darkened city under the cover of night."
+  },
+  {
+    "id": 24,
+    "title": "Eternal Watcher",
+    "subtitle": "By Charlotte Lee",
+    "price": 350.0,
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/243aea55-df7f-4dda-ae88-07f4da0615f6/da1mbs3-3ef3060c-c664-4c96-9ce0-8550b82afcc0.jpg/v1/fit/w_828,h_466,q_70,strp/forgotten_place_by_aronkamo_da1mbs3-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA2OSIsInBhdGgiOiJcL2ZcLzI0M2FlYTU1LWRmN2YtNGRkYS1hZTg4LTA3ZjRkYTA2MTVmNlwvZGExbWJzMy0zZWYzMDYwYy1jNjY0LTRjOTYtOWNlMC04NTUwYjgyYWZjYzAuanBnIiwid2lkdGgiOiI8PTE5MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nIZYPi5oAb2698h1sIWVYllAq7GrM6seozK6VOXB69A",
+
+    "category": "Fantasy Art",
+    "for_sale": true,
+    "description": "An ancient, eternal being standing guard over a mysterious temple, with an aura of wisdom."
+  }
+]
