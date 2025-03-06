@@ -1,0 +1,62 @@
+{
+    "showPaintings": [
+      {
+        "img": "https://i.pinimg.com/736x/91/eb/e8/91ebe84cf64af8f8f8aec73ff0247aa4.jpg",
+        "title": "Girl2 Painting",
+        "description": "The background is subtle, allowing her face to shine as the focal point, capturing her inner grace and the sheer beauty of her features."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/cf/7f/60/cf7f6095d62a8c3d9343f5f2b95b8f0d.jpg",
+        "title": "Music2 Painting",
+        "description": "A classic artistic style."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/bc/fe/02/bcfe027e5c99bb1ca999bab131c9f214.jpg",
+        "title": "Music1 Painting",
+        "description": "The serene and timeless beauty of music, rendered with rich textures and vibrant colors."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/99/93/e1/9993e118abf5af77c241a3460c6bb44f.jpg",
+        "title": "Girl1 Painting",
+        "description": "The timeless beauty of a young woman with remarkable attention to detail."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/f4/e2/cf/f4e2cf7ae3968b496714d0dbf3d23783.jpg",
+        "title": "Tree Painting",
+        "description": "The oil painting portrays a tree."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/8d/ff/1f/8dff1f021103991ce339f2b9f2cdd10a.jpg",
+        "title": "Dream Painting",
+        "description": "This stunning oil painting captures the majestic presence of a dreaming feeling."
+      }
+    ],
+    "salePaintings": [
+      {
+        "img": "https://i.pinimg.com/736x/5f/7a/f7/5f7af7d2d425412d0a1ff371c473d863.jpg",
+        "title": "Girl4 Painting",
+        "price": "220$"
+      },
+      {
+        "img": "https://i.pinimg.com/736x/2d/10/15/2d1015bd36dd7b4ea4c73110fb8138a8.jpg",
+        "title": "Nature1 Painting",
+        "price": "220$"
+      },
+      {
+        "img": "https://i.pinimg.com/736x/8e/31/3a/8e313a0631143487483e8b3d1659d2dd.jpg",
+        "title": "Girl3 Painting",
+        "price": "220$"
+      },
+      {
+        "img": "https://i.pinimg.com/736x/c7/4a/97/c74a979090f65dbee4868e91e22724de.jpg",
+        "title": "Girl2 Painting",
+        "price": "220$"
+      },
+      {
+        "img": "https://i.pinimg.com/736x/c8/f8/46/c8f8465fbf59d14278a4dd2a0def92c1.jpg",
+        "title": "Girl1 Painting",
+        "price": "220$"
+      }
+    ]
+  }
+  

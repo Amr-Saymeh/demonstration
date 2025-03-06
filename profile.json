@@ -1,0 +1,82 @@
+{
+    "showPaintings": [
+      {
+        "img": "https://i.pinimg.com/736x/4f/36/ef/4f36efdb56099482a4ecda8bc1d1aaa6.jpg",
+        "title": "Girl4 Painting",
+        "description": "The background is subtle, allowing her face to shine as the focal point, capturing her inner grace and the sheer beauty of her features."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/63/ab/b9/63abb9fed11fede541eafd81c37d2c5a.jpg",
+        "title": "Marilyn Monroe Painting",
+        "description": "A classic portrayal of Marilyn Monroe in a colorful, artistic style."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/72/6b/2a/726b2ae1e9340767cada13ef801ee441.jpg",
+        "title": "Nature2 Painting",
+        "description": "The serene and timeless beauty of nature, rendered with rich textures and vibrant colors."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/21/5e/89/215e893d677580fadeef27c8a9860d89.jpg",
+        "title": "Girl3 Painting",
+        "description": "The timeless beauty of a young woman with remarkable attention to detail."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/fd/e4/1c/fde41c9f7c38c625135027d44be2bc25.jpg",
+        "title": "Girl2 Painting",
+        "description": "The oil painting portrays a young woman whose beauty is captured with delicate precision."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/7f/2f/c0/7f2fc0a22beedcd5dafbcc1f5e1b56fa.jpg",
+        "title": "Elephant Painting",
+        "description": "This stunning oil painting captures the majestic presence of an elephant in its natural habitat. "
+      },
+      {
+        "img": "https://i.pinimg.com/736x/36/ae/2a/36ae2a88d3fc2d6d3d3b57277e737c29.jpg",
+        "title": "Nature1 Painting",
+        "description": "The raw beauty of nature in its most serene form."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/12/9c/20/129c2006045d7e5ca2fd5114f2843f27.jpg",
+        "title": "Horse Painting",
+        "description": "Horse Painting - Horse Art - Original Oil Painting - Rainbow horse."
+      },
+      {
+        "img":"https://i.pinimg.com/736x/67/0b/99/670b9982608f81b6e2fec739e17d2d28.jpg",
+        "title": "Bird Painting",
+        "description": "The bird’s calm expression is accentuated by the fine detailing around its eyes and beak, which seem to gaze thoughtfully into the distance."
+      },
+      {
+        "img": "https://i.pinimg.com/736x/3e/d3/d4/3ed3d4e239fbd22b59c835887facc7aa.jpg",
+        "title": "Girl1 Painting",
+        "description": "Her eyes, large and expressive, draw the viewer in, with a gaze that seems both thoughtful and full of life."
+      }
+    ],
+    "salePaintings": [
+      {
+        "img": "https://i.pinimg.com/736x/5a/fb/b0/5afbb0e50fd88074d9848e18a29a0d10.jpg",
+        "title": "Nature2 Painting",
+        "price": "220$"
+      },
+      {
+        "img": "https://i.pinimg.com/736x/a2/96/2f/a2962ff7a039cc970762532572c2fa14.jpg",
+        "title": "Nature1 Painting",
+        "price": "220$"
+      },
+      {
+        "img": "https://i.pinimg.com/736x/99/74/4c/99744c8497bde96eb4b54980f0ddde01.jpg",
+        "title": "Girl2 Painting",
+        "price": "220$"
+      },
+      {
+        "img": "https://i.pinimg.com/736x/22/05/62/2205625ba6e702f9f93fbd5ea52e8823.jpg",
+        "title": "Village Painting",
+        "price": "220$"
+      },
+      {
+        "img":"https://i.pinimg.com/736x/e6/59/8f/e6598f85542cb81d65d6b7a298ffee18.jpg",
+        "title": "Girl1 Painting",
+        "price": "220$"
+      }
+    ]
+  }
+  
