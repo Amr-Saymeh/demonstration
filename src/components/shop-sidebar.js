@@ -53,7 +53,7 @@ const ShopSidebar = ({
       <div className={` side-overlay ${isFilterActive ? 'active' : ''}`} onClick={() => setIsSidebarActive(false)}></div>
       <aside className={`sidebar shop-styling ${isFilterActive ? 'active' : ''}`}>
         <div className={`container ${isFilterActive ? 'active' : ''}`}>
-          <div className="tabs">
+          <div className="tabs high_p">
             <input
               type="radio"
               id="radio-1"

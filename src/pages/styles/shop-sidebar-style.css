@@ -220,6 +220,9 @@ overflow-x: visible;
   position: absolute;
   visibility: hidden;
 }
+.high_p{
+  z-index: 1000;
+}
 @media (max-width: 768px) {
 .shop-styling .container{
   left: -5em;
