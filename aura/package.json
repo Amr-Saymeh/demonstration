@@ -1,8 +1,11 @@
 {
+  "homepage": "https://amr-saymeh.github.io/demonstration",
   "name": "aura",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
     "cra-template": "1.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -15,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -36,8 +41,10 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^9.17.0",
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-react": "^7.37.3",
+    "gh-pages": "^6.3.0",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
   }
