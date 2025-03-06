@@ -49,22 +49,20 @@ function App() {
       <HashRouter>
         <Routes>
           <Route index element={<Shop addToCart={addToCart} cartItems={cartItems} />} />
-          <Route path="/home" element={<Main />} />
-          <Route path="/shop" element={<Shop addToCart={addToCart} cartItems={cartItems} />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="wishlist" element={<Wishlist addToCart={addToCart} cartItems={cartItems} data={DefaultShopItems} />} />
-          <Route path="/community" element={<Community />} />
-          <Route path="/sign-in" element={<SignIn />} />
-          <Route path="/sign-up" element={<SignUp />} />
-          <Route path="/reset-pass" element={<ResetPassword />} />
-          <Route path="/verification" element={<Verification />} />
-          <Route path="/forgot-pass" element={<ForgotPassword />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<CheckOut />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/profile2" element={<Profile2 />} />
-          <Route path="/upload" element={<Upload />} />
-          <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/demonstration/home" element={<Main />} />
+          <Route path="/demonstration/shop" element={<Shop addToCart={addToCart} cartItems={cartItems} />} />
+          <Route path="/demonstration/cart" element={<Cart />} />
+          <Route path="/demonstration/wishlist" element={<Wishlist addToCart={addToCart} cartItems={cartItems} data={DefaultShopItems} />} />
+          <Route path="/demonstration/community" element={<Community />} />
+          <Route path="/demonstration/sign-in" element={<SignIn />} />
+          <Route path="/demonstration/sign-up" element={<SignUp />} />
+          <Route path="/demonstration/reset-pass" element={<ResetPassword />} />
+          <Route path="/demonstration/verification" element={<Verification />} />
+          <Route path="/demonstration/forgot-pass" element={<ForgotPassword />} />
+          <Route path="/demonstration/checkout" element={<CheckOut />} />
+          <Route path="/demonstration/profile" element={<Profile />} />
+          <Route path="/demonstration/profile2" element={<Profile2 />} />
+          <Route path="/demonstration/upload" element={<Upload />} />
         </Routes>
       </HashRouter>
     </div>
