@@ -111,7 +111,7 @@ overflow-x: visible;
     padding: 0.75rem;
     border-radius: 99px;
     width:fit-content;
-    z-index: 5;
+    z-index: 1000;
     margin-bottom: 1em;
   }
   
@@ -220,9 +220,7 @@ overflow-x: visible;
   position: absolute;
   visibility: hidden;
 }
-.high_p{
-  z-index: 1000;
-}
+
 @media (max-width: 768px) {
 .shop-styling .container{
   left: -5em;
