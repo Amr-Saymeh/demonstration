@@ -24,8 +24,8 @@ const ShopItem = ({ data, addToCart, cartItems, toggleWishlistItem, wishlistItem
 
     return (
         <div className="card" onClick={ToggleModal}>
-            <div className="wrapper" onClick={ToggleModal}>
-                <div className="img-container" onClick={ToggleModal}>
+            <div className="wrapper">
+                <div className="img-container">
                     <img
                         className="card-image"
                         src={data.image}
@@ -94,7 +94,7 @@ const ShopItem = ({ data, addToCart, cartItems, toggleWishlistItem, wishlistItem
                         </>
                     )}
                 </div>
-                <div className="content" onClick={ToggleModal}>
+                <div className="content">
                     <p className="title">{data.title}</p>
                     <p className=" A_name">in {data.category}</p>
                     <p className="price">${data.price}</p>

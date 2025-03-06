@@ -223,15 +223,15 @@ overflow-x: visible;
 
 @media (max-width: 768px) {
 .shop-styling .container{
-  left: -5em;
+  left: -22%;
   .filters{
-  left: -15em;
+    left: -100%;
   }
   .glider{
-   left:-1em;
+    left:-5%;
   }
   .glider.f-active{
-    left:3.85em;
+    left:50%;
   }
   .tab.f-active{
     color:#996dc6;
@@ -240,23 +240,23 @@ overflow-x: visible;
 }
 
 .shop-styling .container.active {
-  left: 0em;
+  left: 0%;
   .glider{
-    left:0.7em;
+    left:10%;
   }
   
 }
 
 .shop-styling .filters.active {
-  left: 0.5em;
+  left: 0.5%;
 }
 .shop-styling .sidebar.active{
-  padding-left: 1em;
-  margin-left: 0em;
+  padding-left: 1%;
+  margin-left: 0%;
 }
 .shop-styling .sidebar{
-  padding-left: 0em;
-  margin-left: 0em;
+  padding-left: 0%;
+  margin-left: 0%;
 }
 .shop-styling .filters.active {
   overflow-y: auto;
