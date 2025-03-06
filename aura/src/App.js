@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Shop from "./pages/shop";
@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index element={<Shop addToCart={addToCart} cartItems={cartItems} />} />
           <Route path="/home" element={<Main />} />
@@ -66,7 +66,7 @@ function App() {
           <Route path="/upload" element={<Upload />} />
           <Route path="/wishlist" element={<Wishlist />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
